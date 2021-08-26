@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- CSS only -->
+    <link rel="stylesheet" href="./style.css">
+    <title> Ecomerce cart</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <nav>
+                <div class="logo">
+                    <h1>SHOPPING-CART</h1>
+                </div>
+                <div class="cart__counter">
+                    <i class="fa fa-shopping-cart"></i>
+                    <span id="total_counter">0</span>
+                </div>
+            </nav>
+            <div class="cart">
+                <div class="cart__items">
+                   
+                    <div class="check_out">
+                        <h4>Total Amount : $ </h4>
+                        <h4 class="total-cost"> 0</h4>
+                        <button class="btn check-out-btn">
+                            Check out
+                        </button>  
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="products">
+            <div class="product_elements">
+                <input type="hidden" name="" id="product_id" value="1">
+                <img src="./img/1__.png" alt="" id="image">
+                <h4 class="product__name">Nilke pinner</h4>
+                <h4 class="product__price">$20</h4>
+                <div class="btn_add_to_cart">Add To Cart</div>
+            </div>
+            <div class="product_elements">
+                <input type="hidden" name="" id="product_id" value="2">
+                <img src="./img/2__.png" alt="" id="image">
+                <h4 class="product__name">Nilke sinner</h4>
+                <h4 class="product__price">$90</h4>
+                <div class="btn_add_to_cart">Add To Cart</div>
+            </div>
+            <div class="product_elements">
+                <input type="hidden" name="" id="product_id" value="3">
+                <img src="./img/3___.png" alt="" id="image">
+                <h4 class="product__name">Nilke snikker</h4>
+                <h4 class="product__price">$40</h4>
+                <div class="btn_add_to_cart">Add To Cart</div>
+            </div>
+
+        </div>
+    </div>
+
+  
+
+
+
+
+    <script src="./main.js" type="module"></script>
+    <script src="./utilites.js" type="module"></script>
+</body>
+</html>
