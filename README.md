@@ -1,1 +1,1 @@
-## this is my second aplication on githUB
+## this is my second aplication  on gitHub
